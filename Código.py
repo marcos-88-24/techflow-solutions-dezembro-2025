@@ -32,3 +32,13 @@ def atualizar_evento():
     
     if not evento_encontrado:
         print("Evento não encontrado!")
+
+def visualizar_eventos():
+    if not eventos:
+        print("Não há eventos cadastrados.")
+        return
+    
+    print("\n--- Lista de Eventos Disponíveis ---")
+    for evento in eventos:
+        print(f"Nome: {evento['nome']}, Data: {evento['data']}, Descrição: {evento['descricao']}, Vagas Restantes: {evento['vagas'] - len(evento['inscritos'])}")
+
