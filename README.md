@@ -47,7 +47,7 @@ O sistema funciona no terminal, apresentando um menu simples para navegação en
 
 - Metodologia:  Kanban via GitHub Projects.
 - Planejamento aba Projects com colunas: A Fazer, Em Progresso e Concluído.
-- Desenvolvimento issues #1 a #5 para criação, fechamento ao implantar
-- Qualidade issues #6 a #8 para testes, fechadas após validação no github 
+- Desenvolvimento issues #1 a #7 para criação, fechamento ao implantar
+- Qualidade issues #8 para testes, fechadas após validação no github 
 - Histórico: Registro das atividades com dos commits.
 - Mudanças: registradas no README.md e Kanban.
